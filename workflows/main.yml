@@ -1,6 +1,7 @@
 name: generate animation
 
 on:
+  push:
   schedule:
     - cron: "35 23 * * *"
 
