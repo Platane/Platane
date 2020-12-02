@@ -8,6 +8,7 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: Platane/snk@master
         id: snake-gif
