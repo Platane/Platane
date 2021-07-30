@@ -1,6 +1,9 @@
 name: generate animation
 
 on:
+#   push: # uncomment to test GH action svg generation without cron
+#     branches:
+#     - master
   schedule:
     - cron: "0 */6 * * *" # every 6 hours
 
