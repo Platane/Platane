@@ -17,8 +17,10 @@ on:
 
 jobs:
   generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     
     steps:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
